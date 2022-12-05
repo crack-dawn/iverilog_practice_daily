@@ -1,0 +1,53 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\va_math.vpi";
+S_00000294b8f414f0 .scope module, "function_mod" "function_mod" 2 12;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /OUTPUT 4 "c";
+    .port_info 3 /OUTPUT 4 "d";
+o00000294b8f97038 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v00000294b8f4df10_0 .net "a", 3 0, o00000294b8f97038;  0 drivers
+o00000294b8f97068 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v00000294b8f41810_0 .net "b", 3 0, o00000294b8f97068;  0 drivers
+v00000294b8f418b0_0 .net "c", 3 0, L_00000294b8fd9d80;  1 drivers
+v00000294b8fd9c40_0 .net "d", 3 0, L_00000294b8fd9e20;  1 drivers
+v00000294b8fd9ce0_0 .var/i "i", 31 0;
+L_00000294b8fd9d80 .ufunc/vec4 TD_function_mod.reverse_bit, 4, o00000294b8f97038 (v00000294b8f41ce0_0) S_00000294b8f41680;
+L_00000294b8fd9e20 .ufunc/vec4 TD_function_mod.reverse_bit, 4, o00000294b8f97068 (v00000294b8f41ce0_0) S_00000294b8f41680;
+S_00000294b8f41680 .scope function.vec4.s4, "reverse_bit" "reverse_bit" 2 24, 2 24 0, S_00000294b8f414f0;
+ .timescale -9 -9;
+v00000294b8f41ce0_0 .var "data_in", 3 0;
+; Variable reverse_bit is vec4 return value of scope S_00000294b8f41680
+TD_function_mod.reverse_bit ;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v00000294b8fd9ce0_0, 0, 32;
+T_0.0 ;
+    %load/vec4 v00000294b8fd9ce0_0;
+    %cmpi/s 2, 0, 32;
+    %jmp/0xz T_0.1, 5;
+    %load/vec4 v00000294b8f41ce0_0;
+    %pushi/vec4 3, 0, 32;
+    %load/vec4 v00000294b8fd9ce0_0;
+    %sub;
+    %part/s 1;
+    %ix/getv/s 4, v00000294b8fd9ce0_0;
+    %ret/vec4 0, 4, 1; Assign to reverse_bit (store_vec4_to_lval)
+    %load/vec4 v00000294b8fd9ce0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v00000294b8fd9ce0_0, 0, 32;
+    %jmp T_0.0;
+T_0.1 ;
+    %end;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "diff.v";

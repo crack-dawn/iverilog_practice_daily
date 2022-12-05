@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/23841/Desktop/vscode_verilog/ÆæÅ¼Ð£Ñé
+vodd_even
+Z0 !s110 1663334236
+!i10b 1
+!s100 fe9A14inSX8fe1UJLIZ;o0
+IW@60KoAYk>NCHS3F@Cggl0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/23841/Desktop/vscode_verilog/123
+w1663333852
+8odd_even.v
+Fodd_even.v
+L0 3
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1663334236.000000
+Z5 !s107 tb_odd_even.v|odd_even.v|
+Z6 !s90 odd_even.v|tb_odd_even.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vtb_odd_sel
+R0
+!i10b 1
+!s100 iV^8NzWQa11ohYjF6Ql2M0
+IX;d9oMQ]T?Ln]8z30J[kX2
+R1
+R2
+w1663333439
+8tb_odd_even.v
+Ftb_odd_even.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 0
+R7
+R8

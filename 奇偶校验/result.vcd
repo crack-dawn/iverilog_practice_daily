@@ -1,0 +1,67 @@
+$date
+	Fri Sep 16 21:45:40 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_odd_even_m $end
+$var wire 1 ! check123 $end
+$var parameter 32 " PERIOD $end
+$var reg 32 # bus111 [31:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % rst_n $end
+$var reg 1 & sel222 $end
+$scope module u_odd_even $end
+$var wire 32 ' bus [31:0] $end
+$var wire 1 & sel $end
+$var wire 1 ( tmp $end
+$var wire 1 ! check $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 "
+$end
+#0
+$dumpvars
+1(
+b1 '
+1&
+0%
+0$
+b1 #
+1!
+$end
+#5000
+1$
+#10000
+0!
+0(
+b11 #
+b11 '
+0$
+#15000
+1$
+#20000
+1!
+b101 #
+b101 '
+0&
+0$
+1%
+#25000
+1$
+#30000
+0!
+1(
+b111 #
+b111 '
+0$
+#35000
+1$
+#40000
+0$

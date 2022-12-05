@@ -1,0 +1,49 @@
+$date
+	Fri Sep 30 21:50:27 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_minux $end
+$var wire 9 ! c [8:0] $end
+$var parameter 32 " PERIOD $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst_n $end
+$scope module u_minux $end
+$var wire 8 ' a [7:0] $end
+$var wire 8 ( b [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rst_n $end
+$var reg 9 ) c [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 "
+$end
+#0
+$dumpvars
+b0 )
+b10100 (
+b1010 '
+0&
+0%
+b10100 $
+b1010 #
+b0 !
+$end
+#20000
+b10100 #
+b10100 '
+#30000
+b11110 #
+b11110 '
+#40000
+b101000 #
+b101000 '

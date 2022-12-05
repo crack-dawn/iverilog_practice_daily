@@ -1,0 +1,307 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dj:/FPGA/iverilog
+vAdd1
+Z1 !s110 1668260248
+!i10b 1
+!s100 o3XP[EcehNAFTN9en;3bd3
+Ib8gKNaQFJ9bIPDoV1;=;=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1668089356
+Z4 8j:\FPGA\iverilog\超前位加法器\ful_add.v
+Z5 Fj:\FPGA\iverilog\超前位加法器\ful_add.v
+L0 2
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1668260248.000000
+Z8 !s107 j:\FPGA\iverilog\超前位加法器\ful_add.v|
+Z9 !s90 -nologo|-work|work|j:\FPGA\iverilog\超前位加法器\ful_add.v|
+!i113 0
+Z10 o-nologo -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+n@add1
+vAdd4_head
+R1
+!i10b 1
+!s100 h_:jF2nU[0@E=DAaO[Y5l1
+I8l0IGMgTl3o5VeReVfn?h2
+R2
+R0
+R3
+R4
+R5
+L0 35
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@add4_head
+vbreath_led
+!s110 1670210129
+!i10b 1
+!s100 6GLlGZ8U_U4;4j:0JE^IG0
+Il31T5:c1ZkXQ5dKaBd7RN2
+R2
+R0
+w1669629344
+8j:\FPGA\iverilog\呼吸灯pwm\breath_led.v
+Fj:\FPGA\iverilog\呼吸灯pwm\breath_led.v
+L0 20
+R6
+r1
+!s85 0
+31
+!s108 1670210129.000000
+!s107 j:\FPGA\iverilog\呼吸灯pwm\breath_led.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\呼吸灯pwm\breath_led.v|
+!i113 0
+R10
+R11
+vCLA_4
+R1
+!i10b 1
+!s100 8bAIc:feX]3nYb182fcVV0
+I85EAj1I0mnYQA:GMc0dmo0
+R2
+R0
+R3
+R4
+R5
+L0 17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@c@l@a_4
+vcomparator_4
+!s110 1669806654
+!i10b 1
+!s100 GFOK4@^9H`VoE6NGV2:DW0
+IK@mWH]dNA]_K1^dJbizBC0
+R2
+R0
+w1669806653
+Z12 8j:\FPGA\iverilog\大小端转换\diff.v
+Z13 Fj:\FPGA\iverilog\大小端转换\diff.v
+L0 45
+R6
+r1
+!s85 0
+31
+!s108 1669806653.000000
+Z14 !s107 j:\FPGA\iverilog\大小端转换\diff.v|
+Z15 !s90 -nologo|-work|work|j:\FPGA\iverilog\大小端转换\diff.v|
+!i113 0
+R10
+R11
+vdiff
+!s110 1669693066
+!i10b 1
+!s100 08D_cARFGME_RC[J3AJ<A0
+IG<>N4IjfCEn5_c1?0F^4Q2
+R2
+R0
+w1669693066
+8j:\FPGA\iverilog\d\diff.v
+Fj:\FPGA\iverilog\d\diff.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1669693066.000000
+!s107 j:\FPGA\iverilog\d\diff.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\d\diff.v|
+!i113 0
+R10
+R11
+vedge_detect
+!s110 1669807236
+!i10b 1
+!s100 leEA4Fm4o3f:W_EC[4D?J3
+IaPa[FVj^IU3fE9hmMKijM2
+R2
+R0
+w1669807235
+R12
+R13
+L0 44
+R6
+r1
+!s85 0
+31
+!s108 1669807235.000000
+R14
+R15
+!i113 0
+R10
+R11
+vfunction_mod
+!s110 1669805428
+!i10b 1
+!s100 E5h3JICQR:gZR<j<n<knb0
+I8QOl?T?LSYYDeI[g0BJak0
+R2
+R0
+w1669729809
+R12
+R13
+L0 22
+R6
+r1
+!s85 0
+31
+!s108 1669805428.000000
+R14
+R15
+!i113 0
+R10
+R11
+vled
+!s110 1668261038
+!i10b 1
+!s100 `Nd=E<@;ICL[ObTcT]?3E3
+I6F?4VVe`jJ6<]>MMdzj[k0
+R2
+R0
+w1666752573
+8j:\FPGA\iverilog\与门\led.v
+Fj:\FPGA\iverilog\与门\led.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1668261038.000000
+!s107 j:\FPGA\iverilog\与门\led.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\与门\led.v|
+!i113 0
+R10
+R11
+vminux
+!s110 1668261048
+!i10b 1
+!s100 E9NDLN3ZBXjJ7AL9l7oV31
+I^gL9510dzZX`o3ga8z61I3
+R2
+R0
+w1664545962
+8j:\FPGA\iverilog\求差\minus.v
+Fj:\FPGA\iverilog\求差\minus.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1668261048.000000
+!s107 j:\FPGA\iverilog\求差\minus.v|j:\FPGA\iverilog\求差\tb_minus.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\求差\tb_minus.v|
+!i113 0
+R10
+R11
+vtb_breath_led
+!s110 1668261230
+!i10b 1
+!s100 [4OZHcCQBgz0Uk@K]hAV`1
+I:IoYZ6nRSc=g1?:=E?Wim2
+R2
+R0
+w1668261229
+8j:\FPGA\iverilog\呼吸灯pwm\tb_breath_led.v
+Fj:\FPGA\iverilog\呼吸灯pwm\tb_breath_led.v
+L0 21
+R6
+r1
+!s85 0
+31
+!s108 1668261230.000000
+!s107 j:\FPGA\iverilog\呼吸灯pwm\breath_led.v|j:\FPGA\iverilog\呼吸灯pwm\tb_breath_led.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\呼吸灯pwm\tb_breath_led.v|
+!i113 0
+R10
+R11
+vtb_time_count
+!s110 1668753274
+!i10b 1
+!s100 5WMFjdF@bFP_P6Ha<eRzd0
+ITX7YBZWOKl;fIz63_9EVJ3
+R2
+R0
+w1668753274
+8j:\FPGA\iverilog\计数器\tb_counter.v
+Fj:\FPGA\iverilog\计数器\tb_counter.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1668753274.000000
+!s107 j:\FPGA\iverilog\计数器\counter.v|j:\FPGA\iverilog\计数器\tb_counter.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\计数器\tb_counter.v|
+!i113 0
+R10
+R11
+vtime_count
+!s110 1669628081
+!i10b 1
+!s100 o]>QXD:lmoTV2Ag`UIm]M1
+I<Vd^Y>KUHVi@>B;JiBJO>0
+R2
+R0
+w1665543885
+8j:\FPGA\iverilog\计数器\counter.v
+Fj:\FPGA\iverilog\计数器\counter.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1669628080.000000
+!s107 j:\FPGA\iverilog\计数器\counter.v|
+!s90 -nologo|-work|work|j:\FPGA\iverilog\计数器\counter.v|
+!i113 0
+R10
+R11
+vtop_module
+!s110 1669728689
+!i10b 1
+!s100 EI;g4Q[@RSYO3P=iCO]SQ0
+I^l74iEZnJ4H[F6aHRROjz3
+R2
+R0
+w1669694493
+R12
+R13
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1669728689.000000
+R14
+R15
+!i113 0
+R10
+R11
