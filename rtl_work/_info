@@ -74,6 +74,27 @@ R9
 R10
 R11
 n@c@l@a_4
+vevent_v
+!s110 1678108734
+!i10b 1
+!s100 g@4ojYX6Qm[1[[;]dXl2D2
+IO<NZk@zb]Aa05ZIh:2l7F2
+R2
+R0
+w1678108719
+Z12 8j:\FPGA\iverilog\Óï·¨Á·Ï°\event.v
+Z13 Fj:\FPGA\iverilog\Óï·¨Á·Ï°\event.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1678108734.000000
+!s107 j:\FPGA\iverilog\Óï·¨Á·Ï°\event.v|
+Z14 !s90 -nologo|-work|work|j:\FPGA\iverilog\Óï·¨Á·Ï°\event.v|
+!i113 0
+R10
+R11
 vled
 !s110 1678078982
 !i10b 1
@@ -96,23 +117,23 @@ r1
 R10
 R11
 vtest
-!s110 1678079747
+!s110 1678108689
 !i10b 1
-!s100 :U4GKWKSdSPQYbX^1FOId0
-IQL_>`F=nVh<AI_@AE5AK`0
+!s100 :c@?TeYPUQAD85SlI9[_K0
+ING1hHmHOQ;Q1[Ch6@Wg890
 R2
 R0
-w1678079747
-Z12 8j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v
-Z13 Fj:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v
+w1678108689
+R12
+R13
 L0 1
 R6
 r1
 !s85 0
 31
-!s108 1678079747.000000
-!s107 j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v|
-Z14 !s90 -nologo|-work|work|j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v|
+!s108 1678108689.000000
+!s107 j:\FPGA\iverilog\Óï·¨Á·Ï°\event.v|
+R14
 !i113 0
 R10
 R11
@@ -124,8 +145,8 @@ IY1@Mj[eQ?eC[DRECVK;n;3
 R2
 R0
 w1678079148
-R12
-R13
+8j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v
+Fj:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v
 L0 1
 R6
 r1
@@ -133,7 +154,7 @@ r1
 31
 !s108 1678079148.000000
 !s107 j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v|
-R14
+!s90 -nologo|-work|work|j:\FPGA\iverilog\Óï·¨Á·Ï°\forwhile.v|
 !i113 0
 R10
 R11

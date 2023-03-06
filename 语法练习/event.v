@@ -1,5 +1,5 @@
-module test;
-//循环结构
+module event_v;
+ 
 integer i;
 initial begin
    for ( i =0 ; i<4 ; i=i+1 ) begin
