@@ -1,19 +1,14 @@
 module event_v;
- 
-integer i;
-initial begin
-   for ( i =0 ; i<4 ; i=i+1 ) begin
-        $display ("i = %d (%b binary)", i,i);
-    end 
-end
-    
-integer j;
-initial begin
-    j =0;
-    while( j < 4) begin
-        $display ("j= %d (%b binary)", j,j);
-        j=j+1;
+    event e1, e2;
+
+    initial @ e1 begin
+         $display ("event_1 running" );
+         ->e2;
     end
-end 
- 
+
+    initial @ e2 begin
+         $display ("event_2 running" );
+    end
+
 endmodule
+

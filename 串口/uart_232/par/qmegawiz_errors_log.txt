@@ -1,0 +1,13 @@
+
+
+C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.v
+
+Apr 02 09PM:19:23>: File C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.cnxerr could not be opened
+
+C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.v
+
+Apr 02 09PM:19:24>: File C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.cnxerr could not be opened
+
+C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.v
+
+Apr 02 09PM:19:25>: File C:/Users/23841/Desktop/FPGA_peri/¡ä??¨²/uart_232/par/ipcore/clk_div.cnxerr could not be opened
