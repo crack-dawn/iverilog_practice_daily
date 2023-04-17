@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\23841\Desktop\verilog_study\led\quartus_prj\simulation\modelsim
+vled
+I]REIB49j3:S3Mn_=Q6gO_3
+VD@9Z:6LF1`IPWHo^beAF;0
+Z1 dC:\Users\23841\Desktop\verilog_study\led\quartus_prj\simulation\modelsim
+w1664335207
+8led_8_1200mv_85c_slow.vo
+Fled_8_1200mv_85c_slow.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 F`S;f1^jD=2=R=a[EobUD2
+!s85 0
+!s108 1664337280.730000
+!s107 led_8_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|led_8_1200mv_85c_slow.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vtb_led
+!i10b 1
+!s100 ;?E_X>C:Q:Y;W>D2Z>PQ81
+I9=b_GWJ7[_N:GQ9c:5<[k0
+VHn^j<8?Akz;XEWeS=6f?V0
+R1
+w1664336184
+8C:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl/tb_led.v
+FC:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl/tb_led.v
+L0 20
+R2
+r1
+!s85 0
+31
+!s108 1664337280.779000
+!s107 C:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl/tb_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl|C:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl/tb_led.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/23841/Desktop/verilog_study/led/quartus_prj/../rtl -O0

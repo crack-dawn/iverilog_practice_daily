@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/Users/23841/Desktop/FPGA_peri
+vdivider_six
+!s110 1681392726
+!i10b 1
+!s100 ?:NPY`TDdM1T?QG8=Q=L91
+IgNPFa:LKhzmRj8E:1<Ud<3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1670253165
+8c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\divider_six.v
+Fc:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\divider_six.v
+L0 59
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1681392726.000000
+!s107 c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\divider_six.v|
+!s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\divider_six.v|
+!i113 0
+Z4 o-nologo -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+veeprom_byte_rd_wr
+!s110 1681531874
+!i10b 1
+!s100 HS5@QzZJ9aQQYGLDe1;he0
+IeBQX9eFh_?WH=3j23OH131
+R1
+R0
+Z6 w1640251684
+8c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\eeprom_byte_rd_wr.v
+Fc:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\eeprom_byte_rd_wr.v
+Z7 L0 20
+R3
+r1
+!s85 0
+31
+!s108 1681531874.000000
+!s107 c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\eeprom_byte_rd_wr.v|
+!s90 -nologo|-work|work|c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\eeprom_byte_rd_wr.v|
+!i113 0
+R4
+R5
+vhc595_ctrl
+!s110 1681386978
+!i10b 1
+!s100 Z;8RgF<knCg6e?7X:Y`eR1
+I7P[_P_XzTjL^_R>0HIok<0
+R1
+R0
+R6
+8c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\hc595_ctrl.v
+Fc:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\hc595_ctrl.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1681386978.000000
+!s107 c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\hc595_ctrl.v|
+!s90 -nologo|-work|work|c:\Users\23841\Desktop\30_eeprom_byte_rd_wr\rtl\hc595_ctrl.v|
+!i113 0
+R4
+R5
+vi2c_ctrl
+!s110 1681532426
+!i10b 1
+!s100 GS?bA9HA=2ZOf>fVL3QVk3
+Ib6=aXRX5QIKcWE9j]OH`o0
+R1
+R0
+w1681531827
+8c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\i2c_ctrl.v
+Fc:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\i2c_ctrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1681532426.000000
+!s107 c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\i2c_ctrl.v|c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\tb_i2c_ctrl.v|
+Z8 !s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\tb_i2c_ctrl.v|
+!i113 0
+R4
+R5
+vIIC_
+!s110 1681387456
+!i10b 1
+!s100 95:9FH9j]me[S;ACXMAAH3
+I[HHdWM0_dSi5k_[YKL4;?2
+R1
+R0
+w1681387456
+8c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\one_to_more.v
+Fc:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\one_to_more.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1681387456.000000
+!s107 c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\one_to_more.v|
+!s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\one_to_more.v|
+!i113 0
+R4
+R5
+n@i@i@c_
+vseg_led
+!s110 1681390089
+!i10b 1
+!s100 l2kU8YQBa7L@h?N1X1XSB3
+IhMMzN5EY^P;Ie;32b>[5S3
+R1
+R0
+w1601276924
+8j:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v
+Fj:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v
+L0 22
+R3
+r1
+!s85 0
+31
+!s108 1681390089.000000
+!s107 j:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v|
+!s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v|
+!i113 0
+R4
+R5
+vtb_divider_six
+!s110 1681392567
+!i10b 1
+!s100 Ab]fRG0M0BTJo2ZKXnIml1
+Ik?KSa_=U]NQ=iWVCWHYom3
+R1
+R0
+R2
+8c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\tb_divider_six.v
+Fc:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\tb_divider_six.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1681392566.000000
+!s107 c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\divider_six.v|c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\tb_divider_six.v|
+!s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\·ÖÆµÆ÷\tb_divider_six.v|
+!i113 0
+R4
+R5
+vtb_i2c_ctrl
+!s110 1681531794
+!i10b 1
+!s100 7b10UO]R0NNXZL6]T9DlG2
+IKd2Wm`QI;5MY7b_AAmFT]1
+R1
+R0
+w1681394872
+8c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\tb_i2c_ctrl.v
+Fc:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\tb_i2c_ctrl.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1681531794.000000
+!s107 c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\i2c_ctrl.v|c:\Users\23841\Desktop\FPGA_peri\Óï·¨Á·Ï°\i2c\tb_i2c_ctrl.v|
+R8
+!i113 0
+R4
+R5
+vtb_time_count
+Z9 !s110 1681393728
+!i10b 1
+!s100 Kz^oOJPh?MCL]U6KMoC0h2
+I^LfY?nmbjHd11zQ::RYI83
+R1
+R0
+w1680176714
+8c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\tb_counter.v
+Fc:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\tb_counter.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z10 !s108 1681393728.000000
+Z11 !s107 c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\counter.v|c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\tb_counter.v|
+Z12 !s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\tb_counter.v|
+!i113 0
+R4
+R5
+vtime_count
+R9
+!i10b 1
+!s100 o]>QXD:lmoTV2Ag`UIm]M1
+I[D<z7ljjofLE6cc=DX9Pm1
+R1
+R0
+R2
+8c:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\counter.v
+Fc:\Users\23841\Desktop\FPGA_peri\Ä£¿éÁ·Ï°\¼ÆÊýÆ÷\counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R4
+R5

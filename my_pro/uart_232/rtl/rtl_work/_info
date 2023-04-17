@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dj:/FPGA/quartus_obj/my_pro/10_uart_top_rs232/rtl
+vua
+!s110 1673693745
+!i10b 1
+!s100 P=M[KbVK]h:e>O7jmXONc2
+IO6GM[:zTjDUFkn^5modCL0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1673693745
+Z2 8j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loopback_top.v
+Z3 Fj:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loopback_top.v
+L0 1
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1673693745.000000
+!s107 j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loopback_top.v|
+Z5 !s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loopback_top.v|
+!i113 0
+Z6 o-nologo -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vuart_loop
+Z8 !s110 1676035239
+!i10b 1
+!s100 AY[fdk;nlL?2Z:fTedlT<2
+IUnH?klP@VVhQZZaiOQUDh2
+R1
+R0
+w1674467890
+8j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loop.v
+Fj:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loop.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1676035238.000000
+!s107 j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loop.v|
+!s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loop.v|
+!i113 0
+R6
+R7
+vuart_loopback_top
+R8
+!i10b 1
+!s100 a:=>6E51?<?m6mjY:=fDg2
+I?d0KIWg2lRa`MBBRnQGoa1
+R1
+R0
+w1673713012
+R2
+R3
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1676035237.000000
+!s107 j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loop.v|uart_send.v|uart_recv.v|j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\my_rtl\uart_loopback_top.v|
+R5
+!i113 0
+R6
+R7
+vuart_recv
+!s110 1676035248
+!i10b 1
+!s100 2Fnfd=1fUM;D7mZ267CGm1
+IIPjb6Ce`HaS>HM02FVOol0
+R1
+R0
+Z9 w1601276924
+8j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\uart_recv.v
+Fj:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\uart_recv.v
+Z10 L0 28
+R4
+r1
+!s85 0
+31
+!s108 1676035248.000000
+!s107 j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\uart_recv.v|
+!s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\10_uart_top_rs232\rtl\uart_recv.v|
+!i113 0
+R6
+R7
+vuart_send
+Z11 !s110 1680093826
+!i10b 1
+!s100 Jk1Qmbcho1V=d_Y6aIC3b3
+IJ`o^2WhU2ZHd`bW_MX7J82
+R1
+Z12 dj:/FPGA/quartus_obj/my_pro/uart_232/rtl
+w1672496609
+8j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_send.v
+Fj:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_send.v
+R10
+R4
+r1
+!s85 0
+31
+Z13 !s108 1680093826.000000
+!s107 j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_send.v|
+!s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_send.v|
+!i113 0
+R6
+R7
+vuart_top
+R11
+!i10b 1
+!s100 TR2I;ekmJ=HR1[M64Sie02
+IMNU`Zl:b^cU16KK^3664b0
+R1
+R12
+R9
+8j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_top.v
+Fj:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_top.v
+R10
+R4
+r1
+!s85 0
+31
+R13
+!s107 j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_top.v|
+!s90 -nologo|-work|work|j:\FPGA\quartus_obj\my_pro\uart_232\rtl\uart_top.v|
+!i113 0
+R6
+R7

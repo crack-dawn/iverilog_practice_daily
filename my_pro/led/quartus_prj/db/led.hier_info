@@ -1,0 +1,13 @@
+|led
+and_1 => led_and.IN0
+and_2 => led_and.IN1
+or_1 => led_or.IN0
+or_2 => led_or.IN1
+not_1 => led_not.DATAIN
+clk => ~NO_FANOUT~
+rst => ~NO_FANOUT~
+led_and << led_and.DB_MAX_OUTPUT_PORT_TYPE
+led_or << led_or.DB_MAX_OUTPUT_PORT_TYPE
+led_not << not_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
