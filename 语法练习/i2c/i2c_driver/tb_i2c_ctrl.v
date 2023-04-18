@@ -36,29 +36,72 @@ wire    tb_i2c_sda                               ;
 //-----------------------------------------------------
 
 //从机端向三态门信号线发送数据
-reg            tb_i2c_sda_link_en                 =1'b0;
-reg            i2c_sda_slave_data              =1'b0;
-wire           tb_i2c_sda_in           = tb_i2c_sda;
+reg            tb_i2c_sda_link_en               =1'b0;
+reg            i2c_sda_slave_data               =1'b0;
+wire           tb_i2c_sda_in                    = tb_i2c_sda;
 assign   tb_i2c_sda = (tb_i2c_sda_link_en==1)? i2c_sda_slave_data :1'bz;
 
-// initial begin
-//     force tb_i2c_sda = 1'b0;
-// end
+//-----clock and reset init---------
+initial  sys_clk = 1'b1;
+always   #(PERIOD/2)  sys_clk=~sys_clk;
 
- 
+//reset and init state
 initial begin
     addr_num <= 1'b0;
     wr_en    <= 1'b0;
-    rd_en    <= 1'b0;
+    rd_en    <= 1'b1;
 end
 initial begin
-    #(PERIOD*1) sys_rst_n  =  0;
-    #(PERIOD*1) sys_rst_n  =  1;
-    #(PERIOD*23);
+    sys_rst_n  =  1  ;  #(PERIOD*1) ;
+    sys_rst_n  =  0 ;   #(PERIOD*3);
+    sys_rst_n  =  1;
+    #(PERIOD*25*2);
     i2c_start  = 1'b1; #(1000);
     i2c_start  = 1'b0; 
     rd_en =1'b1;
 end
+///
+
+parameter time_one_cnt_bit = 4000;  //250kHz
+parameter ack_1  = 38060;
+parameter ack_2  = 74060;
+parameter ack_3  =114060;
+// parameter ack_4
+// parameter ack_5
+parameter send_state = 118060;
+
+reg     [3:0] i = 0;
+reg     [7:0] send_data = 8'b0110_1011;
+//仿真开始
+initial begin
+    forever begin
+        #100;
+        if ($time >= 2000000)  $finish ;
+        if (
+            ($time >= ack_1)  && ($time <= ack_1+3900)  || 
+            ($time >= ack_2)  && ($time <= ack_2+3900)  ||
+            ($time >= ack_3)  && ($time <= ack_3+3900)  
+        ) 
+            begin
+            tb_i2c_sda_link_en   = 1'b1;
+            i2c_sda_slave_data   = 1'b0;
+            end
+        else if (($time >= send_state)  && ($time <= time_one_cnt_bit*8 + send_state)  ) begin
+            for ( i=0 ;i<=3'd7 ; i= i+1'b1 ) begin
+                tb_i2c_sda_link_en   = 1'b1;
+                i2c_sda_slave_data   = send_data[7-i];
+                #(time_one_cnt_bit);
+            end
+        end
+        else begin
+            tb_i2c_sda_link_en   = 1'b0;
+            i2c_sda_slave_data   = 1'b1;
+        end
+    end
+end
+
+ 
+
  
 
  
@@ -88,29 +131,11 @@ i2c_ctrl tb_i2c_ctrl
 
  
 
-//-----clock and reset init---------
-initial begin
-    forever #(PERIOD/2)  sys_clk=~sys_clk;
-end
-
-initial begin
-    forever begin
-        #100;
-        if ($time >= 2000000)  $finish ;
-        if (($time >= 37030)  && ($time <= 41030) ) 
-            begin
-            tb_i2c_sda_link_en  = 1'b1;
-            end
-        else begin
-           tb_i2c_sda_link_en   = 1'b0; 
-        end
-    end
-end
 
 initial begin
     $dumpfile("i2c_ctrl.vcd");           //生成的vcd文件名称
     $dumpvars(0, tb_i2c_ctrl);    // tb模块名称 module 的名字
-    $dumpvars(0, tb_i2c_sda,tb_i2c_sda_in,tb_i2c_sda_link_en);
+    $dumpvars(0, i2c_sda_slave_data,tb_i2c_sda,tb_i2c_sda_in,tb_i2c_sda_link_en);
 end
 
  

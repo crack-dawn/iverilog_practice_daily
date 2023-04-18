@@ -1,12 +1,15 @@
-module inout_top
+module three_state
 (
-input       I_data_in        ,
-inout       IO_data          ,
-output     O_data_out     ,
-input       Control
+    input   wire    data         ,
+    input   wire    en_data      ,
+    inout           IO_data      
 );
- 
-assign IO_data = Control ? I_data_in : 1'bz ;
-assign O_data_out = IO_data ;
- 
+
+wire       data_in  ;
+
+assign IO_data = (en_data==1'b1) ? data : 1'bz ;
+assign data_in = IO_data ;
+
+
+
 endmodule

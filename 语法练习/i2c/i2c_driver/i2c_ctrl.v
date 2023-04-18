@@ -256,7 +256,7 @@ reg     [7:0]   rd_data_reg     ;   //自i2c设备读出数据
         case (state)
             IDLE: //空闲状态  i2c_scl 传输时钟停止
                 i2c_scl <= 1'b1;
-            START_1://开始状态
+            START_1,START_2://开始状态
                 if (cnt_i2c_clk == 2'd3 )  begin
                     i2c_scl <= 1'b0; 
                 end
@@ -265,7 +265,7 @@ reg     [7:0]   rd_data_reg     ;   //自i2c设备读出数据
                 end
             //中间的n多个状态，cnt_i2c_clk不断计数， i2c_clk持续打节拍，  进行数据传输
             SEND_DEVICE_ADDR,ACK_1,SEND_B_ADDR_H,ACK_2,SEND_B_ADDR_L,
-            ACK_3,WR_DATA,ACK_4,START_2,SEND_RD_ADDR,ACK_5,READ_DATA,N_ACK:
+            ACK_3,WR_DATA,ACK_4,SEND_RD_ADDR,ACK_5,READ_DATA,N_ACK:
             begin
                     // i2c_clk [10] [10] [10] [10] 
                     // i2c_scl [0]  [1]  [1]  [0]  scl在中间两拍为高
@@ -330,12 +330,12 @@ reg     [7:0]   rd_data_reg     ;   //自i2c设备读出数据
                 i2c_sda_out <= 1'b1;
             START_2:
                 begin
-                    if (cnt_i2c_clk == 2'b1) begin
-                            i2c_sda_out <= 1'd1;
+                    if (cnt_i2c_clk == 2'd0) begin
+                        i2c_sda_out <= 1'd1;
                         end
-                        else begin
-                            i2c_sda_out <= 1'd1;
-                        end
+                    else begin
+                        i2c_sda_out <= 1'd0;
+                    end
                 end
             SEND_RD_ADDR:
                 if (cnt_bit <= 3'd6) begin
