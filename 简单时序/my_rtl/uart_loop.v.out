@@ -1,0 +1,110 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\DAILYA~1\iverilog\lib\ivl\va_math.vpi";
+S_00000287ab66dc90 .scope module, "uart_loop" "uart_loop" 2 2;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "sys_clk";
+    .port_info 1 /INPUT 1 "sys_rst_n";
+    .port_info 2 /INPUT 1 "recv_done";
+    .port_info 3 /INPUT 8 "recv_data";
+    .port_info 4 /INPUT 1 "uart_tx_busy";
+    .port_info 5 /OUTPUT 1 "send_en";
+    .port_info 6 /OUTPUT 8 "send_data";
+L_00000287ab66e100 .functor NOT 1, v00000287ab663300_0, C4<0>, C4<0>, C4<0>;
+L_00000287ab594790 .functor AND 1, v00000287ab663260_0, L_00000287ab66e100, C4<1>, C4<1>;
+v00000287ab6637a0_0 .net *"_ivl_0", 0 0, L_00000287ab66e100;  1 drivers
+o00000287ab598fc8 .functor BUFZ 8, C4<zzzzzzzz>; HiZ drive
+v00000287ab663120_0 .net "recv_data", 7 0, o00000287ab598fc8;  0 drivers
+o00000287ab598ff8 .functor BUFZ 1, C4<z>; HiZ drive
+v00000287ab6631c0_0 .net "recv_done", 0 0, o00000287ab598ff8;  0 drivers
+v00000287ab663260_0 .var "recv_done_d0", 0 0;
+v00000287ab663300_0 .var "recv_done_d1", 0 0;
+v00000287ab6633a0_0 .net "recv_done_flag", 0 0, L_00000287ab594790;  1 drivers
+v00000287ab663440_0 .var "send_data", 7 0;
+v00000287ab6634e0_0 .var "send_en", 0 0;
+o00000287ab599118 .functor BUFZ 1, C4<z>; HiZ drive
+v00000287ab594510_0 .net "sys_clk", 0 0, o00000287ab599118;  0 drivers
+o00000287ab599148 .functor BUFZ 1, C4<z>; HiZ drive
+v00000287ab5945b0_0 .net "sys_rst_n", 0 0, o00000287ab599148;  0 drivers
+v00000287ab594650_0 .var "tx_ready", 0 0;
+o00000287ab5991a8 .functor BUFZ 1, C4<z>; HiZ drive
+v00000287ab5946f0_0 .net "uart_tx_busy", 0 0, o00000287ab5991a8;  0 drivers
+E_00000287ab585aa0/0 .event negedge, v00000287ab5945b0_0;
+E_00000287ab585aa0/1 .event posedge, v00000287ab594510_0;
+E_00000287ab585aa0 .event/or E_00000287ab585aa0/0, E_00000287ab585aa0/1;
+    .scope S_00000287ab66dc90;
+T_0 ;
+    %wait E_00000287ab585aa0;
+    %load/vec4 v00000287ab5945b0_0;
+    %nor/r;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab663260_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab663300_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v00000287ab6631c0_0;
+    %assign/vec4 v00000287ab663260_0, 0;
+    %load/vec4 v00000287ab663260_0;
+    %assign/vec4 v00000287ab663300_0, 0;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_00000287ab66dc90;
+T_1 ;
+    %wait E_00000287ab585aa0;
+    %load/vec4 v00000287ab5945b0_0;
+    %nor/r;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %pushi/vec4 0, 0, 8;
+    %assign/vec4 v00000287ab663440_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab6634e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab594650_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v00000287ab6631c0_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.2, 8;
+    %load/vec4 v00000287ab663120_0;
+    %assign/vec4 v00000287ab663440_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab6634e0_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v00000287ab594650_0, 0;
+    %jmp T_1.3;
+T_1.2 ;
+    %load/vec4 v00000287ab5946f0_0;
+    %inv;
+    %flag_set/vec4 9;
+    %flag_get/vec4 9;
+    %jmp/0 T_1.6, 9;
+    %load/vec4 v00000287ab594650_0;
+    %and;
+T_1.6;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.4, 8;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v00000287ab6634e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v00000287ab594650_0, 0;
+T_1.4 ;
+T_1.3 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "uart_loop.v";

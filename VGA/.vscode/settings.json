@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "refactai.apiKey": "Qe5x3ovDtlOi4CjM8Sq8rG1d"
+}

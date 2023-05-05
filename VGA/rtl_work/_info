@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dj:/FPGA/practice/VGA
+vclk_divider_by_2
+!s110 1683194888
+!i10b 1
+!s100 dEa3STHVMoVYzDRgZM7dH2
+I[mnZJ5IdYfgLGQ^EJJ;?J2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1683194888
+Z2 8j:\FPGA\practice\VGA\clk_diver\二分频.v
+Z3 Fj:\FPGA\practice\VGA\clk_diver\二分频.v
+L0 1
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1683194888.000000
+Z5 !s107 j:\FPGA\practice\VGA\clk_diver\二分频.v|
+Z6 !s90 -nologo|-work|work|j:\FPGA\practice\VGA\clk_diver\二分频.v|
+!i113 0
+Z7 o-nologo -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vCLK_GEN_5X
+Z9 !s110 1683177395
+!i10b 1
+!s100 ]8DS3fkF;f7OUR]8Y`K]T1
+InTWD;2^27Dh5F_3Xm_oj=0
+R1
+R0
+Z10 w1683177395
+R2
+R3
+L0 13
+R4
+r1
+!s85 0
+31
+Z11 !s108 1683177395.000000
+R5
+R6
+!i113 0
+R7
+R8
+n@c@l@k_@g@e@n_5@x
+vdouble_f
+Z12 !s110 1683207986
+!i10b 1
+!s100 EVf0EYB1_hIGhh4`HPD0j3
+Ik:mFzCIKDdBc9`1BlX1<i0
+R1
+R0
+Z13 w1683207986
+Z14 8j:\FPGA\practice\VGA\clk_diver\double_f.v
+Z15 Fj:\FPGA\practice\VGA\clk_diver\double_f.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z16 !s108 1683207986.000000
+Z17 !s107 j:\FPGA\practice\VGA\clk_diver\double_f.v|
+Z18 !s90 -nologo|-work|work|j:\FPGA\practice\VGA\clk_diver\double_f.v|
+!i113 0
+R7
+R8
+vtb_double_f
+R12
+!i10b 1
+!s100 cWQFQ@`75V01zJ425TKJV2
+IaJ55`_nfn8EH=X5];GJP41
+R1
+R0
+R13
+R14
+R15
+L0 80
+R4
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R7
+R8
+vtb_vga_ctrl
+!s110 1683273783
+!i10b 1
+!s100 Ozmij]L4>omC3`zYk2e<00
+IJ<:lUofRD[caJLD]@@C^k3
+R1
+R0
+w1683263408
+8j:\FPGA\practice\VGA\vga_ex_.v
+Fj:\FPGA\practice\VGA\vga_ex_.v
+L0 120
+R4
+r1
+!s85 0
+31
+!s108 1683273783.000000
+!s107 j:\FPGA\practice\VGA\vga_ex_.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\VGA\vga_ex_.v|
+!i113 0
+R7
+R8
+vtest
+!s110 1683195464
+!i10b 1
+!s100 :Zc[;:R:fDA6F4WTlWg271
+II3zPmfE];ZA:6JTF^JhUW2
+R1
+R0
+w1683195464
+R14
+R15
+L0 23
+R4
+r1
+!s85 0
+31
+!s108 1683195464.000000
+R17
+R18
+!i113 0
+R7
+R8
+vVGA_CLK_GEN
+R9
+!i10b 1
+!s100 h3o`[^WWhlGJeRS3NhV[]2
+I9Jdc=;jgneh^K3KVWa]<?2
+R1
+R0
+R10
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+R5
+R6
+!i113 0
+R7
+R8
+n@v@g@a_@c@l@k_@g@e@n
+vvga_ctrl
+!s110 1683274449
+!i10b 1
+!s100 4ak]:mMNAIPdKJlFCU3dN1
+Im?XQD^:ako:L9[`ADHV]Z0
+R1
+R0
+w1683274449
+8j:\FPGA\example\YeHuo_Pro\ebf_ep4ce10_pro_tutorial_code_20211223\29_vga_rom_pic\rtl\vga_ctrl.v
+Fj:\FPGA\example\YeHuo_Pro\ebf_ep4ce10_pro_tutorial_code_20211223\29_vga_rom_pic\rtl\vga_ctrl.v
+L0 20
+R4
+r1
+!s85 0
+31
+!s108 1683274449.000000
+!s107 j:\FPGA\example\YeHuo_Pro\ebf_ep4ce10_pro_tutorial_code_20211223\29_vga_rom_pic\rtl\vga_ctrl.v|
+!s90 -nologo|-work|work|j:\FPGA\example\YeHuo_Pro\ebf_ep4ce10_pro_tutorial_code_20211223\29_vga_rom_pic\rtl\vga_ctrl.v|
+!i113 0
+R7
+R8

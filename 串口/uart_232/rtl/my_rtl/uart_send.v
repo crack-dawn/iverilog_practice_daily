@@ -1,8 +1,8 @@
-module uart_send(input	         sys_clk,       //系统时钟
+module uart_send(input	         sys_clk,        //系统时钟
                  input           sys_rst_n,      //系统复位，低电平有效
                  
                  input           uart_tx_en,
-                 input  [7:0]    uart_din, // data to send
+                 input  [7:0]    uart_din,      // data to send
                  output reg      uart_txd,      //UART发�?�端�?? 单线发�?? 只有�??位，每次发�??1bit数据
                  output          uart_tx_busy);
     
@@ -16,7 +16,7 @@ module uart_send(input	         sys_clk,       //系统时钟
     reg         uart_tx_en_d1;
     reg [15:0]  clk_cnt;                         //系统时钟计数�??
     reg [3:0]   tx_cnt;                          //发�?�数据计数器
-                       //发�?�过程标志信�??
+                                                 //发�?�过程标志信�??
     reg [7:0]   tx_data;                         //寄存发�?�数�??
     
     wire       en_flag;  // start flag

@@ -72,23 +72,23 @@ r1
 R4
 R5
 vi2c_ctrl
-!s110 1681532426
+Z8 !s110 1682250986
 !i10b 1
-!s100 GS?bA9HA=2ZOf>fVL3QVk3
-Ib6=aXRX5QIKcWE9j]OH`o0
+!s100 9ABC@NEAm9Ae:EQZ8Y?5f2
+IfGe^S4la<72zXHfcWH`Hl0
 R1
-R0
-w1681531827
-8c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\i2c_ctrl.v
-Fc:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\i2c_ctrl.v
+Z9 dj:/FPGA/practice
+w1681796136
+8j:\FPGA\practice\简单时序\i2c_driver\i2c_ctrl.v
+Fj:\FPGA\practice\简单时序\i2c_driver\i2c_ctrl.v
 L0 1
 R3
 r1
 !s85 0
 31
-!s108 1681532426.000000
-!s107 c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\i2c_ctrl.v|c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\tb_i2c_ctrl.v|
-Z8 !s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\tb_i2c_ctrl.v|
+Z10 !s108 1682250986.000000
+Z11 !s107 j:\FPGA\practice\简单时序\i2c_driver\i2c_ctrl.v|j:\FPGA\practice\简单时序\i2c_driver\tb_i2c_ctrl.v|
+Z12 !s90 -nologo|-work|work|j:\FPGA\practice\简单时序\i2c_driver\tb_i2c_ctrl.v|
 !i113 0
 R4
 R5
@@ -121,7 +121,7 @@ vseg_led
 IhMMzN5EY^P;Ie;32b>[5S3
 R1
 R0
-w1601276924
+Z13 w1601276924
 8j:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v
 Fj:\FPGA\quartus_obj\my_pro\6_seg_led_dynamic\rtl\seg_led.v
 L0 22
@@ -157,28 +157,28 @@ r1
 R4
 R5
 vtb_i2c_ctrl
-!s110 1681531794
+R8
 !i10b 1
-!s100 7b10UO]R0NNXZL6]T9DlG2
-IKd2Wm`QI;5MY7b_AAmFT]1
+!s100 KZV9bUIN;f]oRgH``cRWo1
+Ioa?fc;VPiV>kGHKBRaV=S2
 R1
-R0
-w1681394872
-8c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\tb_i2c_ctrl.v
-Fc:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\tb_i2c_ctrl.v
+R9
+w1681797203
+8j:\FPGA\practice\简单时序\i2c_driver\tb_i2c_ctrl.v
+Fj:\FPGA\practice\简单时序\i2c_driver\tb_i2c_ctrl.v
 L0 5
 R3
 r1
 !s85 0
 31
-!s108 1681531794.000000
-!s107 c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\i2c_ctrl.v|c:\Users\23841\Desktop\FPGA_peri\语法练习\i2c\tb_i2c_ctrl.v|
-R8
+R10
+R11
+R12
 !i113 0
 R4
 R5
 vtb_time_count
-Z9 !s110 1681393728
+Z14 !s110 1681393728
 !i10b 1
 !s100 Kz^oOJPh?MCL]U6KMoC0h2
 I^LfY?nmbjHd11zQ::RYI83
@@ -192,14 +192,35 @@ R3
 r1
 !s85 0
 31
-Z10 !s108 1681393728.000000
-Z11 !s107 c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\counter.v|c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\tb_counter.v|
-Z12 !s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\tb_counter.v|
+Z15 !s108 1681393728.000000
+Z16 !s107 c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\counter.v|c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\tb_counter.v|
+Z17 !s90 -nologo|-work|work|c:\Users\23841\Desktop\FPGA_peri\模块练习\计数器\tb_counter.v|
+!i113 0
+R4
+R5
+vtb_uart_send
+!s110 1682252081
+!i10b 1
+!s100 e:4njMliWODG<U`Nh8KRo0
+IV0@^D]^mV<BQScI;1LEon0
+R1
+R9
+w1682252080
+8j:\FPGA\practice\简单时序\my_rtl\tb_uart_send.v
+Fj:\FPGA\practice\简单时序\my_rtl\tb_uart_send.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1682252081.000000
+!s107 j:\FPGA\practice\简单时序\my_rtl\uart_send.v|j:\FPGA\practice\简单时序\my_rtl\tb_uart_send.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\简单时序\my_rtl\tb_uart_send.v|
 !i113 0
 R4
 R5
 vtime_count
-R9
+R14
 !i10b 1
 !s100 o]>QXD:lmoTV2Ag`UIm]M1
 I[D<z7ljjofLE6cc=DX9Pm1
@@ -213,9 +234,156 @@ R3
 r1
 !s85 0
 31
-R10
-R11
-R12
+R15
+R16
+R17
+!i113 0
+R4
+R5
+vuart_loop
+!s110 1682250822
+!i10b 1
+!s100 AY[fdk;nlL?2Z:fTedlT<2
+IUm2ONo0:hD9h1>l`b6cBT2
+R1
+R9
+w1674467890
+8j:\FPGA\practice\简单时序\my_rtl\uart_loop.v
+Fj:\FPGA\practice\简单时序\my_rtl\uart_loop.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1682250822.000000
+!s107 j:\FPGA\practice\简单时序\my_rtl\uart_loop.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\简单时序\my_rtl\uart_loop.v|
+!i113 0
+R4
+R5
+vuart_loopback_top
+!s110 1682250708
+!i10b 1
+!s100 OLB^^o^Wn=WQkaf`Z`1hg0
+I3G5SV26o6UnOJB[WM>B_@1
+R1
+R9
+w1677158588
+8j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_loopback_top.v
+Fj:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_loopback_top.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1682250708.000000
+!s107 j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_loop.v|j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_send.v|j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_recv.v|j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_loopback_top.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_loopback_top.v|
+!i113 0
+R4
+R5
+vuart_recv
+!s110 1682250743
+!i10b 1
+!s100 >[`e>i;_b`KXW?QYm>OF`0
+Io;LPUY^]<X[A`L=;JU48;1
+R1
+R9
+w1673711091
+8j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_recv.v
+Fj:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_recv.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1682250742.000000
+!s107 j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_recv.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\串口\uart_232\rtl\my_rtl\uart_recv.v|
+!i113 0
+R4
+R5
+vuart_rx
+!s110 1682250604
+!i10b 1
+!s100 ZVE[Wm<kXDZJ8^d@c5PLZ2
+IVJ0nlbPCFYJ5f>6=V]Y4L2
+R1
+R9
+w1680096643
+8j:\FPGA\practice\串口\uart_fire\uart_rx.v
+Fj:\FPGA\practice\串口\uart_fire\uart_rx.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1682250604.000000
+!s107 j:\FPGA\practice\串口\uart_fire\uart_rx.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\串口\uart_fire\uart_rx.v|
+!i113 0
+R4
+R5
+vuart_send
+!s110 1682252677
+!i10b 1
+!s100 lJkGXoEPV;BIa4_IahS0:2
+IZ@LZAWDf08ePUhYofS6FR2
+R1
+R9
+w1682252676
+8j:\FPGA\practice\简单时序\my_rtl\uart_send.v
+Fj:\FPGA\practice\简单时序\my_rtl\uart_send.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1682252677.000000
+!s107 j:\FPGA\practice\简单时序\my_rtl\uart_send.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\简单时序\my_rtl\uart_send.v|
+!i113 0
+R4
+R5
+vuart_top
+!s110 1682250668
+!i10b 1
+!s100 TR2I;ekmJ=HR1[M64Sie02
+I>CgOcgkWhR?[ljVLY^Y<F3
+R1
+R9
+R13
+8j:\FPGA\practice\串口\uart_232\rtl\uart_top.v
+Fj:\FPGA\practice\串口\uart_232\rtl\uart_top.v
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1682250668.000000
+!s107 j:\FPGA\practice\串口\uart_232\rtl\uart_top.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\串口\uart_232\rtl\uart_top.v|
+!i113 0
+R4
+R5
+vuart_tx
+!s110 1682250591
+!i10b 1
+!s100 J525k<4;bi<W4R_>Un3oF2
+InjB4>gb3DYZg<LAI?z0Nd1
+R1
+R9
+R6
+8j:\FPGA\practice\串口\uart_fire\uart_tx.v
+Fj:\FPGA\practice\串口\uart_fire\uart_tx.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1682250591.000000
+!s107 j:\FPGA\practice\串口\uart_fire\uart_tx.v|
+!s90 -nologo|-work|work|j:\FPGA\practice\串口\uart_fire\uart_tx.v|
 !i113 0
 R4
 R5
